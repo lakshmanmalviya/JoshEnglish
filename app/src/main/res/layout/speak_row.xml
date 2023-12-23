@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/speakLaout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcomeSpeak"
+            style="@style/Widget.MaterialComponents.Snackbar.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Welcome to Speaking section "
+            android:textAlignment="center"
+            android:textColor="#141414"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/todayTopicText"
+            style="@style/Widget.MaterialComponents.Snackbar.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Today's Topic"
+            android:textAlignment="center"
+            android:textColor="#141414"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rowRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Your Ratings : 4.5"
+            android:textAlignment="center"
+            android:textColor="#D77E7E"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rowTopicName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="What scene in a movie always gives you goosebumps every time you watch it!"
+            android:textAlignment="center"
+            android:textColor="#3A3838"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rowSpeakDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="20 minutes"
+            android:textAlignment="center"
+            android:textColor="#FF00D9"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/callPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/call_bg"
+            android:padding="8dp"
+            android:text="Call Practice Partner"
+            android:textAlignment="center"
+            android:textColor="#FEFEFE"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/callFPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/call_bg"
+            android:padding="8dp"
+            android:text="Call Favorite Practice Partner"
+            android:textAlignment="center"
+            android:textColor="#FEFEFE"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/callPPFG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/call_bg"
+            android:padding="8dp"
+            android:text="Call Practice Partner from group"
+            android:textAlignment="center"
+            android:textColor="#FEFEFE"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/callNS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/call_bg"
+            android:padding="8dp"
+            android:text="Call New Student"
+            android:textAlignment="center"
+            android:textColor="#FEFEFE"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

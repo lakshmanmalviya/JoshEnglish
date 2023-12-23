@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/vocabLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/vocabTouchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/vocab_bg"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word:"
+            android:textColor="#2F2F2F"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rowVocabName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="TextView"
+            android:textColor="#242424"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="+"
+            android:textColor="#C305F2"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vocabImgSenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/lesson_bg"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/rowVocabImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:riv_border_color="#ffff"
+            app:riv_border_width="2dip"
+            app:riv_corner_radius="10dip"
+            app:riv_mutate_background="true"
+            app:riv_oval="false"
+            app:srcCompat="@drawable/placeholder" />
+        <!--<com.makeramen.roundedimageview.RoundedImageView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/imageView1"
+    android:src="@drawable/photo1"
+    android:scaleType="fitCenter"
+    app:riv_corner_radius="30dip"
+    app:riv_border_width="2dip"
+    app:riv_border_color="#333333"
+    app:riv_mutate_background="true"
+    app:riv_tile_mode="repeat"
+    app:riv_oval="true" />-->
+        <TextView
+            android:id="@+id/rowVocabSentence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:text="TextView"
+            android:textColor="#292929"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lessRowLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginRight="25dp"
+    android:background="@drawable/lesson_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/rowLessonImg"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:src="@drawable/placeholder"
+        app:riv_border_color="#E8E6E6"
+        app:riv_border_width="1dip"
+        app:riv_corner_radius="10dip"
+        app:riv_mutate_background="true"
+        app:riv_oval="false"
+        app:riv_tile_mode="repeat" />
+
+    <TextView
+        android:id="@+id/rowLessonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="LessonName"
+        android:textColor="#FF00E1"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
